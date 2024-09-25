@@ -6,7 +6,7 @@ public class BudgetTracker_Main {
         User user1 = new User("Oliwer", "Karlsson");
         System.out.println(user1); // här måste vi omvandla från klass USER till klass string för att skriva ut
         System.out.println(user1.getFirstName() + " " + user1.getLastName()); // här behöver vi itne det pga getter
-        user1.displayUser(); // samam här, pga av metod sp blir det utskivit
+        user1.displayUserDetails(); // samma här, pga av metod sp blir det utskivit
 
     }
 }

@@ -9,7 +9,7 @@ public class User {
         this.lastName = lastName;
     }
     // ----------------------- METHODS -----------------------------------------------------
-    public void displayUser () {
+    public void displayUserDetails () {
         System.out.println("User: " + getFirstName() + " " + getLastName());
     }
 
