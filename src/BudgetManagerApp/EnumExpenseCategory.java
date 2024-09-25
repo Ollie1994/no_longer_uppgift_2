@@ -9,4 +9,8 @@ public class EnumExpenseCategory {
         PETS, INSURANCE, HOUSEHOLDITEMS, PERSONAL, DEBT, EXERCISE,
         RETIREMENT, EDUCATION, SAVINGS, GIFTS, ENTERTAINMENT
     }
+
+
+
+
 }
