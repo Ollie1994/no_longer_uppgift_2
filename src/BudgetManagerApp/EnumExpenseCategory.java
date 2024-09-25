@@ -1,12 +1,12 @@
+// https://localfirstbank.com/article/budgeting-101-personal-budget-categories/?fb_content_cat=fb-tsm
 package BudgetManagerApp;
+
 
 public class EnumExpenseCategory {
     public EnumExpenseCategory() {} // Empty constructor
-    enum Housing {
-        MORTGAGE, RENT, PROPERTYTAXES, HOUSEHOLDREPAIRS, HOAFEES, OTHER
+    enum ExpenseCategory {
+        HOUSING, TRANSPORTATION, FOOD, UTILITIES, CLOTHING, HEALTHCARE,
+        PETS, INSURANCE, HOUSEHOLDITEMS, PERSONAL, DEBT, EXERCISE,
+        RETIREMENT, EDUCATION, SAVINGS, GIFTS, ENTERTAINMENT
     }
-    enum Transportation {
-        CARPAYMENT, CARWARRANTY, GAS, MAINTENANCE, PARKINGFEES, REPAIRS, REGRISTATIONANDDMVFEES, OTHER
-    }
-    enum
 }
